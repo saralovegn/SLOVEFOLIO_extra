@@ -5,6 +5,7 @@
 @import url("./components/buttons.css");
 @import url("./components/cards.css");
 
+@import url("./sections/header.css");
 @import url("./sections/hero.css");
 @import url("./sections/projects.css");
 @import url("./sections/about.css");
