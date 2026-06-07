@@ -9,6 +9,8 @@
 }
 
 .hero__title {
+	color: var(--color-text-hero);
+	font-family: var(--font-family-hero);
 	font-size: var(--font-size-hero);
 	line-height: 0.85;
 

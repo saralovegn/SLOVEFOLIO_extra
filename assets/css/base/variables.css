@@ -1,11 +1,11 @@
 :root {
 	/* Colors */
-	--color-background: #ffffff;
-	--color-surface: #ffb3da;
+	--color-background: #000000;
+	--color-surface: #232323;
 	--color-text: #fff6fb;
 	--color-muted: #a3a3a3;
 	--color-accent: #ff0088;
-    --color-text-poca-opacidad: #ff00886b;
+    --color-text-hero: #19000d;
 
 	/* Spacing */
 	--space-xs: 0.5rem;
@@ -17,7 +17,9 @@
 	/* Typography */
 	--font-size-body: 1rem;
 	--font-size-hero: clamp(4rem, 15vw, 12rem);
-	--font-family-base: "Merriweather", serif;
+	--font-family-base: "dm mono", monospace;
+	--font-family-hero: "roboto flex", sans-serif;
+	
 
 	/* Border Radius */
 	--radius-sm: 4px;

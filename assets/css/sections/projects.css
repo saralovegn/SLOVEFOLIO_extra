@@ -11,7 +11,7 @@
 }
 
 .section-title {
-	color: var(--color-accent);
+	color: var(--color-text);
 	font-size: clamp(2rem, 6vw, 5rem);
 	line-height: 1;
 	margin-bottom: var(--space-lg);
@@ -52,4 +52,23 @@
 	margin-top: auto;
 	color: var(--color-accent);
 	font-size: 0.875rem;
+}
+
+.reveal-card {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal-card.animate-in {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.reveal-card {
+		opacity: 1;
+		transform: none;
+		transition: none;
+	}
 }
