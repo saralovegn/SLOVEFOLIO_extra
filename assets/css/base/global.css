@@ -26,3 +26,7 @@ section {
 .project-card__link {
 	text-decoration: none;
 }
+
+.project-card {
+	border-radius: var(--radius-md);
+}

@@ -5,3 +5,4 @@ He comenzado el desarrollo del hero principal del portfolio. He creado el hero m
 He creado un header css para refinar la navegación principal del portfolio, simplificando la estructura de secciones para centrarla en proyectos, información personal y contacto. 
 He añadido en la sección de Projects unas tarjetas para 3 proyectos personales que quiero mostrar. Añadiré su propio index. He refinado el diseño general de esa sección.
 Eliminación de subrayado link de los project cards para un diseño más limpio y minimal. Lo mismo he hecho para el header.
+Hacemos un call to action: creación de botón en hero.
