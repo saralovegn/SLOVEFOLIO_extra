@@ -3,9 +3,9 @@
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: top;
 
-	gap: var(--space-lg);
+	gap: var(--space-xs);
 }
 
 .site-footer {
@@ -17,7 +17,7 @@
 .hero__title {
 	color: var(--color-text-hero);
 	font-family: var(--font-family-hero);
-	font-size: var(--font-size-hero);
+	font-size: clamp(5rem, 37vw, 12rem);
 	line-height: 0.85;
 
 	width: 100vw;
@@ -60,5 +60,12 @@
 @media (prefers-reduced-motion: reduce) {
 	.hero__line {
 		animation: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero {
+		min-height: 10vh;
+		gap: var(--space-md);
 	}
 }
