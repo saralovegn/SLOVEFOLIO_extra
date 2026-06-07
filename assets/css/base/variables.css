@@ -1,8 +1,8 @@
 :root {
 	/* Colors */
-	--color-background: #0f0f0f;
-	--color-surface: #1a1a1a;
-	--color-text: #f5f5f5;
+	--color-background: #ffffff;
+	--color-surface: #ffb3da;
+	--color-text: #fff6fb;
 	--color-muted: #a3a3a3;
 	--color-accent: #ff0088;
     --color-text-poca-opacidad: #ff00886b;

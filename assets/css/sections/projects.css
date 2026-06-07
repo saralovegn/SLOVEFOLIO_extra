@@ -11,6 +11,7 @@
 }
 
 .section-title {
+	color: var(--color-accent);
 	font-size: clamp(2rem, 6vw, 5rem);
 	line-height: 1;
 	margin-bottom: var(--space-lg);
