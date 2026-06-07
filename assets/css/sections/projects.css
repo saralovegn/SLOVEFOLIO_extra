@@ -33,11 +33,7 @@
 	min-height: 320px;
 	padding: var(--space-md);
 	color: var(--color-text);
-}
-
-.project-card__number {
-	color: var(--color-accent);
-	margin-bottom: var(--space-lg);
+	gap: var(--space-sm);
 }
 
 .project-card__title {

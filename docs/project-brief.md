@@ -6,3 +6,4 @@ He creado un header css para refinar la navegación principal del portfolio, sim
 He añadido en la sección de Projects unas tarjetas para 3 proyectos personales que quiero mostrar. Añadiré su propio index. He refinado el diseño general de esa sección.
 Eliminación de subrayado link de los project cards para un diseño más limpio y minimal. Lo mismo he hecho para el header.
 Hacemos un call to action: creación de botón en hero.
+He mejorado las tarjetas de proyecto incorporando imagen, título, descripción y categoría. También he añadido atributos alt en las imágenes para mejorar la accesibilidad. Además, he refinado el hero tipográfico con tres líneas repetidas de "SARALOVE", buscando una composición más editorial. Más adelante me gustaría explorar una animación con JS para generar movimiento continuo o interacción mediante hover.
