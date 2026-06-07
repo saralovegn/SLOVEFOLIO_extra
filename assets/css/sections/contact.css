@@ -1,12 +1,20 @@
 .contact {
+    font-size: clamp(1.25rem, 3vw, 2rem);
 	display: flex;
 	flex-direction: column;
-	gap: var(--space-sm);
+	gap: var(--space-md);
+
 }
 
 .contact__socials {
+    font-size: clamp(1.25rem, 1vw, 2rem);
 	display: flex;
 	gap: var(--space-md);
 	justify-content: center;
 	margin-top: var(--space-lg);
+}
+
+.button {
+    font-size: clamp(1.25rem, 1vw, 2rem);
+	margin-top: var(--space-md);
 }

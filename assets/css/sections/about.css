@@ -1,0 +1,14 @@
+.about {
+	padding-block: var(--space-xl);
+}
+
+.about__content {
+	max-width: 720px;
+
+	display: grid;
+	gap: var(--space-sm);
+
+	color: var(--color-text-soft);
+	font-size: clamp(1.25rem, 3vw, 2rem);
+	line-height: 1.3;
+}

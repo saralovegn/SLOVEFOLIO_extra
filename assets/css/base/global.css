@@ -43,3 +43,7 @@ section {
 	display: flex;
 	gap: var(--space-md);
 }
+
+.contact__socials a {
+	text-decoration: none;
+}

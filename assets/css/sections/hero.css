@@ -8,6 +8,12 @@
 	gap: var(--space-lg);
 }
 
+.site-footer {
+	color: var(--color-muted);
+	text-align: center;
+	padding: var(--space-md);
+}
+
 .hero__title {
 	color: var(--color-text-hero);
 	font-family: var(--font-family-hero);
