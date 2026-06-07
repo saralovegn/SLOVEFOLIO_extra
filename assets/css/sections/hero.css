@@ -5,9 +5,7 @@
 	flex-direction: column;
 	justify-content: center;
 
-	gap: var(--space-sm);
-
-	padding-top: var(--space-md);
+	gap: var(--space-lg);
 }
 
 .hero__title {
@@ -16,4 +14,43 @@
 
 	width: 100vw;
 	margin-left: calc(-50vw + 50%);
+
+	overflow: hidden;
+}
+
+.hero__line {
+	display: block;
+	white-space: nowrap;
+
+	animation: hero-marquee 18s linear infinite;
+}
+
+.hero__line--reverse {
+	animation-direction: reverse;
+}
+
+.hero__word {
+	display: inline-block;
+	transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hero__word:hover {
+	color: var(--color-accent);
+	transform: scale(1.04);
+}
+
+@keyframes hero-marquee {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-20%);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.hero__line {
+		animation: none;
+	}
 }
