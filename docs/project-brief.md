@@ -4,3 +4,4 @@ He configurado la base de estilos del proyecto utilizando un reset CSS de Eric M
 He comenzado el desarrollo del hero principal del portfolio. He creado el hero moderno tipográfico donde el nombre se divide en dos líneas ("SARA" y "LOVE"). Esta decisión busca construir una primera impresión más contemporánea y editorial, además que la V de LOVE abajo con las dos A de SARA arriba crea un zigzag elegante y llamativo.
 He creado un header css para refinar la navegación principal del portfolio, simplificando la estructura de secciones para centrarla en proyectos, información personal y contacto. 
 He añadido en la sección de Projects unas tarjetas para 3 proyectos personales que quiero mostrar. Añadiré su propio index. He refinado el diseño general de esa sección.
+Eliminación de subrayado link de los project cards para un diseño más limpio y minimal. Lo mismo he hecho para el header.

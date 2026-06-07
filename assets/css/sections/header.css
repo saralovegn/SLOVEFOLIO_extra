@@ -17,6 +17,11 @@
 	gap: var(--space-md);
 	flex-wrap: wrap;
 }
+
+.site-header a {
+	text-decoration: none;
+}
+
 @media (max-width: 768px) {
 	.site-header {
 		align-items: flex-start;

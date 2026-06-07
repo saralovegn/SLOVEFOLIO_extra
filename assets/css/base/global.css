@@ -22,3 +22,7 @@ main {
 section {
 	padding: var(--space-lg) 0;
 }
+
+.project-card__link {
+	text-decoration: none;
+}
