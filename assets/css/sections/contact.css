@@ -1,0 +1,12 @@
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-sm);
+}
+
+.contact__socials {
+	display: flex;
+	gap: var(--space-md);
+	justify-content: center;
+	margin-top: var(--space-lg);
+}

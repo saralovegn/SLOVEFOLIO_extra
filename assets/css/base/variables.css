@@ -17,6 +17,7 @@
 	/* Typography */
 	--font-size-body: 1rem;
 	--font-size-hero: clamp(4rem, 15vw, 12rem);
+	--font-family-base: "Roboto Condensed", sans-serif;
 
 	/* Border Radius */
 	--radius-sm: 4px;
