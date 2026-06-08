@@ -4,7 +4,7 @@
 
 .project-detail__back {
 	display: inline-block;
-	margin-bottom: var(--space-xl);
+	margin-bottom: var(--space-md);
 	text-decoration: none;
 }
 
